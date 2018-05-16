@@ -137,7 +137,8 @@ namespace NUnitTest1
             double mt_area = Math.Round(triangle.getAreaTriangle(), 5);
             Assert.AreEqual(t_area, mt_area, "Метод возвращает неверное значение площади треугольника при условии " +
                 "что \n сторона1  = {0}\n сторона2 = {1}\n сторона3 = {2}", b, b, b);
-            Console.WriteLine ()
+
+            
         }
 
         [Test, TestCaseSource("TriangleCase")]
